@@ -22,6 +22,7 @@
     - google-chrome
     - intellij-idea
     - iterm2
+    - java
     - vagrant
     - virtualbox
   - gem: name={{item}}
