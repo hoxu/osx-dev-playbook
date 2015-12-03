@@ -1,6 +1,7 @@
 - hosts: 127.0.0.1
   connection: local
   tasks:
+  - file: path=~/.ssh mode=0700 state=directory
   - homebrew: name={{item}} state=present
     with_items:
     - ansible
