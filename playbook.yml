@@ -11,6 +11,7 @@
     with_items:
     - ansible
     - caskroom/cask/brew-cask
+    - myrepos
     - tig
     - tmux
   - homebrew_cask: name={{item}} state=present
