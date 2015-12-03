@@ -8,6 +8,8 @@
   tasks:
   - command: creates=~/.ssh/id_rsa ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ''
   - homebrew: name={{item}} state=present
+    tags:
+    - brew
     with_items:
     - ansible
     - caskroom/cask/brew-cask
@@ -18,6 +20,8 @@
     - tig
     - tmux
   - homebrew_cask: name={{item}} state=present
+    tags:
+    - cask
     with_items:
     - eclipse-java
     - firefox
@@ -28,9 +32,13 @@
     - vagrant
     - virtualbox
   - gem: name={{item}}
+    tags:
+    - gem
     with_items:
     - timetrap
   - npm: name={{item}} global=yes
+    tags:
+    - npm
     with_items:
     - bower
     - grunt-cli
