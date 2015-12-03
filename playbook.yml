@@ -24,3 +24,6 @@
     - iterm2
     - vagrant
     - virtualbox
+  - gem: name={{item}}
+    with_items:
+    - timetrap
