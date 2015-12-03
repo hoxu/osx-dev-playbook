@@ -1,2 +1,2 @@
 #!/bin/sh
-ansible-playbook -i localhost, playbook.yml
+ansible-playbook -i localhost, playbook.yml "$@"
