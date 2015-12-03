@@ -3,6 +3,7 @@
   tasks:
   - file: path=~/.ssh mode=0700 state=directory
   - lineinfile: dest=~/.ssh/known_hosts create=yes state=present line="{{ lookup('pipe', 'ssh-keyscan -t rsa github.com') }}" regexp='^github.com'
+  - git: repo=https://github.com/hoxu/dotfiles dest=~/.dotfiles
   - homebrew: name={{item}} state=present
     with_items:
     - ansible
