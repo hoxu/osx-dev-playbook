@@ -12,6 +12,7 @@
     - ansible
     - caskroom/cask/brew-cask
     - myrepos
+    - node
     - pwsafe
     - tig
     - tmux
