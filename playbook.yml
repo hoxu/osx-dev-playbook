@@ -16,6 +16,7 @@
     - leiningen
     - myrepos
     - node
+    - postgresql
     - pwsafe
     - tig
     - tmux
