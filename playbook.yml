@@ -11,6 +11,7 @@
     with_items:
     - ansible
     - caskroom/cask/brew-cask
+    - leiningen
     - myrepos
     - node
     - pwsafe
