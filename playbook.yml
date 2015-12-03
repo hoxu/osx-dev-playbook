@@ -29,3 +29,7 @@
   - gem: name={{item}}
     with_items:
     - timetrap
+  - npm: name={{item}} global=yes
+    with_items:
+    - bower
+    - grunt
