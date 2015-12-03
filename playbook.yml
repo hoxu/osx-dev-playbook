@@ -12,6 +12,7 @@
     - ansible
     - caskroom/cask/brew-cask
     - myrepos
+    - pwsafe
     - tig
     - tmux
   - homebrew_cask: name={{item}} state=present
