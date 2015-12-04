@@ -18,6 +18,7 @@
     - node
     - postgresql
     - pwsafe
+    - tcptraceroute
     - tig
     - tmux
   - homebrew_cask: name={{item}} state=present
