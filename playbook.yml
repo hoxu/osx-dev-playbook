@@ -12,6 +12,7 @@
     - brew
     with_items:
     - ansible
+    - atool
     - caskroom/cask/brew-cask
     - leiningen
     - myrepos
