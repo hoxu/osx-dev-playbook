@@ -32,7 +32,6 @@
     - intellij-idea
     - iterm2
     - java
-    - tunnelblick
     - vagrant
     - virtualbox
   - gem: name={{item}}
