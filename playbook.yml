@@ -47,3 +47,4 @@
     - grunt-cli
   # convert to osx_defaults after ansible 2.0 is released
   - command: defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+  - command: defaults write com.apple.screensaver askForPasswordDelay -int 0
