@@ -15,6 +15,7 @@
     - atool
     - caskroom/cask/brew-cask
     - leiningen
+    - maven
     - myrepos
     - node
     - postgresql
