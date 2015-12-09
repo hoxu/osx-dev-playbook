@@ -39,6 +39,7 @@
     tags:
     - gem
     with_items:
+    - compass
     - timetrap
   - npm: name={{item}} global=yes
     tags:
