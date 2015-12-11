@@ -23,6 +23,7 @@
     - tcptraceroute
     - tig
     - tmux
+    - xml2
   - homebrew_cask: name={{item}} state=present
     tags:
     - cask
