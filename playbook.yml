@@ -19,6 +19,7 @@
     - myrepos
     - node
     - postgresql
+    - pwgen
     - pwsafe
     - tcptraceroute
     - tig
