@@ -14,6 +14,7 @@
     - ansible
     - atool
     - caskroom/cask/brew-cask
+    - git-annex
     - leiningen
     - maven
     - myrepos
