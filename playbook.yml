@@ -13,7 +13,9 @@
     with_items:
     - ansible
     - atool
+    - boot2docker
     - caskroom/cask/brew-cask
+    - docker
     - git-annex
     - leiningen
     - maven
