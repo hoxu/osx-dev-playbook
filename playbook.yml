@@ -17,6 +17,7 @@
     - caskroom/cask/brew-cask
     - docker
     - git-annex
+    - gnupg
     - leiningen
     - maven
     - myrepos
