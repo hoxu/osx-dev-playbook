@@ -25,6 +25,7 @@
     - postgresql
     - pwgen
     - pwsafe
+    - stow
     - tcptraceroute
     - tig
     - tmux
