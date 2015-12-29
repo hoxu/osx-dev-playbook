@@ -18,6 +18,7 @@
     - docker
     - git-annex
     - gnupg
+    - imagemagick
     - leiningen
     - myrepos
     - node
