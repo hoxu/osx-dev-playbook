@@ -25,6 +25,7 @@
     - postgresql
     - pwgen
     - pwsafe
+    - ssh-copy-id
     - stow
     - tcptraceroute
     - tig
