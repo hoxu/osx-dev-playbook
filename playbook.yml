@@ -40,6 +40,7 @@
     - intellij-idea
     - iterm2
     - java
+    - sublime-text
     - vagrant
     - virtualbox
   - homebrew: name={{item}} state=present
