@@ -33,6 +33,7 @@
     tags:
     - cask
     with_items:
+    - bettertouchtool
     - eclipse-java
     - firefox
     - google-chrome
