@@ -19,7 +19,6 @@
     - git-annex
     - gnupg
     - leiningen
-    - maven
     - myrepos
     - node
     - postgresql
@@ -42,6 +41,11 @@
     - java
     - vagrant
     - virtualbox
+  - homebrew: name={{item}} state=present
+    tags:
+    - brew
+    with_items:
+    - maven # requires java
   - gem: name={{item}}
     tags:
     - gem
