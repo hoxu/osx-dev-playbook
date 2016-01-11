@@ -14,7 +14,6 @@
     - ansible
     - atool
     - boot2docker
-    - caskroom/cask/brew-cask
     - docker
     - git-annex
     - gnupg
