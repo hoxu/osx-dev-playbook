@@ -14,8 +14,10 @@
     - ansible
     - atool
     - boot2docker
+    - coreutils
     - docker
     - git-annex
+    - gnu-sed
     - gnupg
     - imagemagick
     - leiningen
