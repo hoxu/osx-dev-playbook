@@ -11,6 +11,7 @@
     tags:
     - brew
     with_items:
+    - ack
     - ansible
     - atool
     - boot2docker
