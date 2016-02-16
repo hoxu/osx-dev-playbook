@@ -21,6 +21,7 @@
     - gnu-sed
     - gnupg
     - imagemagick
+    - jq
     - leiningen
     - myrepos
     - node
