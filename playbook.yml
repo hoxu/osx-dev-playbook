@@ -20,6 +20,7 @@
     - git-annex
     - gnu-sed
     - gnupg
+    - hg
     - imagemagick
     - jq
     - leiningen
