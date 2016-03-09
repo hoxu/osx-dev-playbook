@@ -33,6 +33,7 @@
     - stow
     - tcptraceroute
     - tig
+    - tinyproxy
     - tmux
     - xml2
   - homebrew_cask: name={{item}} state=present
