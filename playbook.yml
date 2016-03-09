@@ -25,6 +25,7 @@
     - jq
     - leiningen
     - myrepos
+    - ncdu
     - node
     - postgresql
     - pwgen
